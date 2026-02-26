@@ -1,6 +1,6 @@
 .categories .section-title {
   width: 312px;
-  margin: 88px auto 32px;
+  margin: 0 auto;
 }
 .categories-cards {
   display: flex;
@@ -9,7 +9,7 @@
   gap: 24px;
   margin-top: 64px;
 }
-.categories-cards a.card {
+.categories-cards .card {
   width: 312px;
   height: 220px;
   background-color: var(--background-secondary-color);
@@ -43,10 +43,16 @@
     justify-content: center;
   }
 }
-
+/* trick para tablet */
 @media screen and (min-width: 1024px) {
   .categories-cards .card {
     width: 430px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .categories-cards .card {
+    width: 305px;
   }
 }
 

@@ -1,3 +1,6 @@
+.offers {
+  margin-bottom: 104px;
+}
 .offers-cards {
   display: flex;
   flex-direction: column;
@@ -79,13 +82,7 @@
 
 @media screen and (min-width: 1366px) {
   .offers-cards .card {
-    width: 315px;
-  }
-  .offers-cards .card.san-andreas header h3 {
-    font-size: 40px;
-  }
-  .offers-cards .card.san-andreas header span {
-    margin-top: 35px;
+    width: 588px;
   }
 }
 
