@@ -14,9 +14,9 @@
   margin-bottom: 24px;
 }
 
-.destinations-items {
+.destinations-items .item {
+  margin: auto;
   width: 312px;
-  margin: 0 auto;
 }
 
 .img-item.tokyo {
@@ -56,14 +56,39 @@
   .destinations span {
     display: inline;
   }
-  .destinations-items{
-    
+  .destinations-items {
+    margin: 0;
   }
-  .destinations-items .item{
+  .destinations-items .item {
     width: 648px;
   }
   .img-item.tokyo {
     background: url(../img/tokyo-tablet-desktop.jpg) no-repeat;
     background-size: cover;
+  }
+  .destinations-items footer .button {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .destinations-items {
+    display: flex;
+    width: 1100px;
+    gap: 24px;
+    margin: 0 auto;
+  }
+  .destinations-items .item {
+    width: 535px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations-items {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .destinations-items .item {
+    width: 588px;
   }
 }

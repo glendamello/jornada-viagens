@@ -1,4 +1,4 @@
-.categories{
+.categories {
   margin-bottom: 88px;
 }
 
@@ -62,6 +62,6 @@
 
 @media screen and (min-width: 1440px) {
   .categories-cards .card {
-    width: 288px;
+    width: 282px;
   }
 }
