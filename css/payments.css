@@ -1,0 +1,28 @@
+.image-content {
+  display: grid;
+  grid-template-columns: 144px 144px;
+  grid-template-rows: 1fr auto;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.image.bag {
+  background: url(../img/montagem-japao-1.png);
+  width: 144px;
+  height: 254px;
+}
+
+.image.passport {
+  background: url(../img/montagem-japao-2.png);
+  width: 144px;
+  height: 254px;
+}
+.image.people {
+  background: url(../img/montagem-japao-3.png);
+  width: 312px;
+  height: 182px;
+}
+@media screen and (min-width: 768px) {
+  .image.bag img {
+  }
+}
