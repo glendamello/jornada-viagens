@@ -40,14 +40,15 @@
 
 @media screen and (min-width: 1440px) {
   .payments .content-container {
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
   }
   .payments .content-container .text-content {
     width: 360px;
   }
   .payments .content-container .image-gallery {
     width: 790px;
+    margin: 0;
   }
   .image.first {
     background: url(../img/montagem-japao-1-desktop.png) no-repeat;
