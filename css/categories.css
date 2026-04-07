@@ -5,6 +5,7 @@
   gap: 24px;
   margin-top: 64px;
 }
+
 .categories-cards .card {
   width: 312px;
   height: 220px;
@@ -17,14 +18,10 @@
   color: var(--text-primary-color);
 }
 
-.categories-cards h3 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-}
-
 .categories-cards .card.single-line {
   padding: 50px;
 }
+
 .categories-cards .card.single-line.transfer img {
   margin: 10px;
 }
@@ -45,15 +42,6 @@
     width: 430px;
   }
 }
-
-/* @media screen and (min-width: 1366px) {
-  .categories-cards {
-    flex-wrap: nowrap;
-  }
-  .categories-cards .card {
-    width: 305px;
-  }
-} */
 
 @media screen and (min-width: 1440px) {
   .categories-cards .card {
