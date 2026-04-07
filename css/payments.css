@@ -1,28 +1,64 @@
-.image-content {
+.payments .content-container .image-gallery {
   display: grid;
-  grid-template-columns: 144px 144px;
-  grid-template-rows: 1fr auto;
+  grid-template-columns: 1fr 1fr;
   gap: 24px;
+  height: 460px;
   margin-top: 24px;
+  width: 100%;
 }
 
-.image.bag {
-  background: url(../img/montagem-japao-1.png);
-  width: 144px;
-  height: 254px;
+.payments .content-container .image-gallery .image.first {
+  background: url(../img/montagem-japao-1.png) no-repeat;
+  background-size: cover;
 }
-
-.image.passport {
+.payments .content-container .image-gallery .image.second {
   background: url(../img/montagem-japao-2.png);
-  width: 144px;
-  height: 254px;
+  background-size: cover;
 }
-.image.people {
+.payments .content-container .image-gallery .image.third {
   background: url(../img/montagem-japao-3.png);
-  width: 312px;
-  height: 182px;
+  background-size: cover;
 }
+.payments .content-container .image-gallery .colspan-2 {
+  grid-column: span 2;
+}
+
 @media screen and (min-width: 768px) {
-  .image.bag img {
+  .payments .content-container .image-gallery .image.first {
+    background: url(../img/montagem-japao-1-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.second {
+    background: url(../img/montagem-japao-2-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.third {
+    background: url(../img/montagem-japao-3-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    justify-content: space-between;
+    display: flex;
+  }
+  .payments .content-container .text-content {
+    width: 360px;
+  }
+  .payments .content-container .image-gallery {
+    width: 790px;
+  }
+  .image.first {
+    background: url(../img/montagem-japao-1-desktop.png) no-repeat;
+    width: 383.5px;
+  }
+  .image.second {
+    background: url(../img/montagem-japao-2-desktop.png) no-repeat;
+    width: 383.5px;
+  }
+  .image.third {
+    background: url(../img/montagem-japao-3-desktop.png) no-repeat;
+    width: 790px;
   }
 }
