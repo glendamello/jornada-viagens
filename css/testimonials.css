@@ -11,6 +11,7 @@
 .testimonial-container footer {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 24px;
   margin-top: 8px;
 }
