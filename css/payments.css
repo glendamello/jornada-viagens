@@ -5,6 +5,7 @@
   height: 460px;
   margin-top: 24px;
   width: 100%;
+  margin-bottom: 88px;
 }
 
 .payments .content-container .image-gallery .image.first {
@@ -23,17 +24,44 @@
   grid-column: span 2;
 }
 
+/* PACOTES DE VIAGENS */
+.payments .content-container .travel-packages .image.first {
+  background: url(../img/montagem1-pacotes-mobile.png) no-repeat;
+  background-size: cover;
+}
+.payments .content-container .travel-packages .image.second {
+  background: url(../img/montagem2-pacotes-mobile.png) no-repeat;
+  background-size: cover;
+}
+.payments .content-container .travel-packages .image.third {
+  background: url(../img/montagem3-pacotes-mobile.png) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
-    background: url(../img/montagem-japao-1-tablet.png) no-repeat;
+    background: url(../img/montagem-pacotes-japao-1-tablet.png) no-repeat;
     background-size: cover;
   }
   .payments .content-container .image-gallery .image.second {
-    background: url(../img/montagem-japao-2-tablet.png) no-repeat;
+    background: url(../img/montagem-pacotes-japao-2-tablet.png) no-repeat;
     background-size: cover;
   }
   .payments .content-container .image-gallery .image.third {
     background: url(../img/montagem-japao-3-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  /* PACOTES DE VIAGENS */
+  .payments .content-container .travel-packages .image.first {
+    background: url(../img/montagem1-pacotes-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .travel-packages .image.second {
+    background: url(../img/montagem2-pacotes-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .travel-packages .image.third {
+    background: url(../img/montagem3-pacotes-tablet.png) no-repeat;
     background-size: cover;
   }
 }
@@ -60,6 +88,19 @@
   }
   .image.third {
     background: url(../img/montagem-japao-3-desktop.png) no-repeat;
+    width: 790px;
+  }
+  /* PACOTES DE VIAGENS */
+  .payments .content-container .travel-packages .image.first {
+    background: url(../img/montagem1-pacotes-desktop.png) no-repeat;
+    width: 383.5px;
+  }
+  .payments .content-container .travel-packages .image.second {
+    background: url(../img/montagem2-pacotes-desktop.png) no-repeat;
+    width: 383.5px;
+  }
+  .payments .content-container .travel-packages .image.third {
+    background: url(../img/montagem3-pacotes-desktop.png) no-repeat;
     width: 790px;
   }
 }
