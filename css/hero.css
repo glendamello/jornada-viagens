@@ -31,6 +31,7 @@
 .travel-packages.bottom-hero .hero-img {
   background: url(../img/footer-pacotes-mobile.png) no-repeat;
   background-size: cover;
+  margin-bottom: 0px;
 }
 .travel-packages .hero-content {
   padding: 65px 24px;
