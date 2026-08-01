@@ -123,6 +123,17 @@
     background: url(../img/footer-pacotes-tablet.png) no-repeat;
     background-size: cover;
   }
+  /* PÁGINA DE CONTATO */
+  .contact-travel .hero-img {
+  height: 620px;
+  background: url(../img/banner-contato-tablet.png) no-repeat;
+  background-size: cover;
+}
+.contact-travel.bottom-hero .hero-img {
+  background: url(../img/img-bt-contato-tablet.png) no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+}
 }
 @media screen and (min-width: 1024px) {
   .hero .hero-img {

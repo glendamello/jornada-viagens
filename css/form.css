@@ -1,3 +1,6 @@
+.container-form{
+    margin-bottom: 88px;
+}
 .container-form .text-form p {
   font-size: 16px;
   font-weight: var(--text-weight);
@@ -5,12 +8,42 @@
   line-height: 28px;
   margin-bottom: 56px;
 }
-.campo-form label{
-    font-size: 20px;
-    color: var(--text-primary-color);
-    font-weight: var(--text-weight);
-    line-height: 32px;
+.campo-form label {
+  font-size: 20px;
+  color: var(--text-tertiary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
 }
-.campo-form input{
-    width: 312px;
+.campo-form input {
+  width: 312px;
+  height: 40px;
+  border: solid var(--tertiary-color);
+  border-width: 3px 0px 0px 0px;
+  outline: none;
+}
+.campo-form textarea {
+  width: 312px;
+  height: 90px;
+  border: solid var(--tertiary-color);
+  border-radius: 8px;
+  margin-bottom: 32px;
+  outline: none;
+}
+.content-form .submit {
+  width: 312px;
+  height: 64px;
+  background-color: var(--secondary-color);
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  border: none;
+  border-radius: 8px;
+}
+.campo-form input:focus {
+  border-color: var(--secondary-color);
+}
+.campo-form:focus-within label,
+.campo-form:focus-within textarea {
+  color: var(--text-primary-color);
+  border-color: var(--secondary-color);
 }
