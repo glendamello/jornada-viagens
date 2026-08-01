@@ -49,7 +49,7 @@ section {
 }
 
 section.hero,
-section.bottom-hero{
+section.bottom-hero {
   width: 100%;
   margin: 0px;
 }
@@ -61,6 +61,13 @@ section.bottom-hero{
 
 .section-title h2 {
   font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.h2-form h2 {
+  font-size: 32px;
   font-weight: var(--title-weight);
   margin: 0;
   text-align: center;
