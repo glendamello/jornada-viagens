@@ -125,15 +125,36 @@
   }
   /* PÁGINA DE CONTATO */
   .contact-travel .hero-img {
-  height: 620px;
-  background: url(../img/banner-contato-tablet.png) no-repeat;
-  background-size: cover;
-}
-.contact-travel.bottom-hero .hero-img {
-  background: url(../img/img-bt-contato-tablet.png) no-repeat;
-  background-size: cover;
-  margin-bottom: 0px;
-}
+    height: 620px;
+    background: url(../img/banner-contato-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .contact-travel.bottom-hero .hero-img {
+    background: url(../img/img-bt-contato-tablet.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+  .contact-travel .hero-content {
+    padding: 90px 24px;
+  }
+  .contact-travel .hero-content h1 {
+    font-size: 48px;
+    color: var(--text-secondary-color);  
+    font-weight: var(--title-weight);
+  }
+  .contact-travel .hero-content hr {
+    width: 180px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 16px 0 32px;
+  }
+  .contact-travel .hero-content p {
+    font-size: 20px;
+    color: var(--text-secondary-color);
+    font-weight: var(--text-weigth);
+    line-height: 32px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .hero .hero-img {
